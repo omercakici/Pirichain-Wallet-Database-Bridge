@@ -399,3 +399,7 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/datawareHouseKpssLisansV2DataSet.Designer.cs
+/datawareHouseKpssLisansV2DataSet.xsc
+/datawareHouseKpssLisansV2DataSet.xss
+/datawareHouseKpssLisansV2DataSet.xsd

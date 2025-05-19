@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Cancel" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="createNewAddress" xml:space="preserve">
+    <value>Yeni Cüzdan Oluştur</value>
+  </data>
+  <data name="frmEntrance_LblTitle" xml:space="preserve">
+    <value>Pirichain Cüzdan ve Veri Yükleme Sistemi</value>
+  </data>
+  <data name="frmEntrance_lblYourPassword" xml:space="preserve">
+    <value>Şifreniz</value>
+  </data>
+  <data name="login" xml:space="preserve">
+    <value>Giriş</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="RescueMyWallet" xml:space="preserve">
+    <value>Cüzdanımı Kurtar</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Onayla</value>
+  </data>
+  <data name="welcome" xml:space="preserve">
+    <value>Hoşgeldiniz</value>
+  </data>
+  <data name="createNewPassword" xml:space="preserve">
+    <value>Yeni Şifre Oluştur</value>
+  </data>
+  <data name="enterNewPassword" xml:space="preserve">
+    <value>Yeni Şifreyi Giriniz</value>
+  </data>
+  <data name="enterNewPasswordAgain" xml:space="preserve">
+    <value>Yeni Şifreyi Tekrar Giriniz</value>
+  </data>
+  <data name="error" xml:space="preserve">
+    <value>Hata!</value>
+  </data>
+  <data name="errorMustbeLeast5Ch" xml:space="preserve">
+    <value>Şifre En Az 5 Karakter Olmalı!</value>
+  </data>
+  <data name="errorPasswordNotMatched" xml:space="preserve">
+    <value>Şifreler Aynı Değil!</value>
+  </data>
+  <data name="errWrongPass" xml:space="preserve">
+    <value>Yanlış Şifre!</value>
+  </data>
+  <data name="lang" xml:space="preserve">
+    <value>Dil</value>
+  </data>
+  <data name="yourBalance" xml:space="preserve">
+    <value>Bakiyeniz:</value>
+  </data>
+  <data name="yourPiriBalance" xml:space="preserve">
+    <value>Piri Coin Bakiyeniz:</value>
+  </data>
+  <data name="confirmationCount" xml:space="preserve">
+    <value>Onay Sayısı</value>
+  </data>
+  <data name="confirmed" xml:space="preserve">
+    <value>Onaylı</value>
+  </data>
+  <data name="menuAbout" xml:space="preserve">
+    <value>Hakkında</value>
+  </data>
+  <data name="menuAddressBook" xml:space="preserve">
+    <value>Adres Defteri</value>
+  </data>
+  <data name="menuAddWallet" xml:space="preserve">
+    <value>Cüzdan Ekle</value>
+  </data>
+  <data name="menuDatabase" xml:space="preserve">
+    <value>Veritabanı</value>
+  </data>
+  <data name="menuDeleteWallet" xml:space="preserve">
+    <value>Cüzdan Sil</value>
+  </data>
+  <data name="menuSelectWallet" xml:space="preserve">
+    <value>Cüzdan Seç</value>
+  </data>
+  <data name="menuSendCoin" xml:space="preserve">
+    <value>Piri Koin Veya Token Gönder</value>
+  </data>
+  <data name="menuWallet" xml:space="preserve">
+    <value>Cüzdanlar</value>
+  </data>
+  <data name="msgWalletAddedSucc" xml:space="preserve">
+    <value>Yeni Cüzdan Eklendi. Cüzdan Bölümünde Yeni Cüzdanınızı Seçebilirsiniz.</value>
+  </data>
+  <data name="addNew" xml:space="preserve">
+    <value>Yeni Ekle</value>
+  </data>
+  <data name="address" xml:space="preserve">
+    <value>Adres</value>
+  </data>
+  <data name="addressBook" xml:space="preserve">
+    <value>Adres Defteri</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>Miktar</value>
+  </data>
+  <data name="AssetName" xml:space="preserve">
+    <value>Varlık</value>
+  </data>
+  <data name="confirm" xml:space="preserve">
+    <value>Onay</value>
+  </data>
+  <data name="confirmDelete" xml:space="preserve">
+    <value>{0} adres defteri silienecek. Emin misin?</value>
+  </data>
+  <data name="delete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="errFillAllFields" xml:space="preserve">
+    <value>Tüm Alanları Doldurunuz!</value>
+  </data>
+  <data name="errInsufficientBalance" xml:space="preserve">
+    <value>Yetersiz Bakiye</value>
+  </data>
+  <data name="label" xml:space="preserve">
+    <value>Etiket</value>
+  </data>
+  <data name="messageAddressAdded" xml:space="preserve">
+    <value>Adres Başarıyla Eklendi!</value>
+  </data>
+  <data name="messageAddressUpdated" xml:space="preserve">
+    <value>Adres Başarıyla Düzenlendi!</value>
+  </data>
+  <data name="messageTransferSucc" xml:space="preserve">
+    <value>Transfer Başarıyla Gerçekleşti!</value>
+  </data>
+  <data name="receipt" xml:space="preserve">
+    <value>Alıcı Adresi</value>
+  </data>
+  <data name="result" xml:space="preserve">
+    <value>Sonuç</value>
+  </data>
+  <data name="transferInterface" xml:space="preserve">
+    <value>Transfer Sayfası</value>
+  </data>
+  <data name="globalBlocks" xml:space="preserve">
+    <value>Bloklar</value>
+  </data>
+  <data name="globalTransactions" xml:space="preserve">
+    <value>Global Hareketler</value>
+  </data>
+  <data name="myTransactions" xml:space="preserve">
+    <value>Hareketlerim</value>
+  </data>
+  <data name="blockHeight" xml:space="preserve">
+    <value>Blok Uzunluğu</value>
+  </data>
+  <data name="confirmationNodes" xml:space="preserve">
+    <value>Onaylayan Düğümler </value>
+  </data>
+  <data name="createNewTableWhenCustomQueryAcrive" xml:space="preserve">
+    <value>Kompleks SQL Sorgusu ile
+ oluşan tabloları gönderim
+ sonrasında yeni bir 
+tabloya kaydet</value>
+  </data>
+  <data name="dataAnnoucement" xml:space="preserve">
+    <value>Sistem yukarıdaki tabloda sadece ilk 100 kaydı gösterir. Data yükleme esnasında tüm verileri gönderecektir.</value>
+  </data>
+  <data name="notSendIfTxExists" xml:space="preserve">
+    <value>Kayıtta Tx Alanı Varsa Gönderme</value>
+  </data>
+  <data name="sendAllFields" xml:space="preserve">
+    <value>Tüm Alanları Gönder</value>
+  </data>
+  <data name="sendOnlyBelowFields" xml:space="preserve">
+    <value>Sadece Aşağıdaki Seçili Alanları Gönder</value>
+  </data>
+  <data name="globalTransactionList" xml:space="preserve">
+    <value>Global Hareket Kayıtları</value>
+  </data>
+  <data name="loading" xml:space="preserve">
+    <value>Yükleniyor... Lütfen Bekleyiniz...</value>
+  </data>
+  <data name="receive" xml:space="preserve">
+    <value>Al</value>
+  </data>
+  <data name="transactionList" xml:space="preserve">
+    <value>Haretket Kayıtlarım</value>
+  </data>
+  <data name="areyousure_senddata" xml:space="preserve">
+    <value>Verileriniz Piri blok zincirine gönderilecektir. Bunun yanında Piri Bakiyeniz Veri eklenirken azalacaktır. İşlemin gerçekleşmesinden emin misiniz?</value>
+  </data>
+  <data name="operationEnd" xml:space="preserve">
+    <value>Veri Gönderim Eylemi Bitti.</value>
+  </data>
+  <data name="bothKeyValue" xml:space="preserve">
+    <value>Hem Anahtar Hem Değer</value>
+  </data>
+  <data name="days" xml:space="preserve">
+    <value>Gün</value>
+  </data>
+  <data name="encrytionLevel" xml:space="preserve">
+    <value>Şifreleme Düzeyi</value>
+  </data>
+  <data name="fastSpeed" xml:space="preserve">
+    <value>Hızlı
+(Komisyon 2x)
+7s /1 Op</value>
+  </data>
+  <data name="hours" xml:space="preserve">
+    <value>Saat</value>
+  </data>
+  <data name="lightingSpeed" xml:space="preserve">
+    <value>Çok Hızlı
+(Komisyon 5x)
+3s /1 Op</value>
+  </data>
+  <data name="minutes" xml:space="preserve">
+    <value>Dakika</value>
+  </data>
+  <data name="noEncryption" xml:space="preserve">
+    <value>Şifreleme Yok</value>
+  </data>
+  <data name="normalSpeed" xml:space="preserve">
+    <value>Normal Hız
+(Komisyon 1x )  
+10s /1 Op</value>
+  </data>
+  <data name="onlyKey" xml:space="preserve">
+    <value>Sadece Anahtar</value>
+  </data>
+  <data name="operationSpeed" xml:space="preserve">
+    <value>Operasyon Hızı</value>
+  </data>
+  <data name="pause" xml:space="preserve">
+    <value>Duraklat</value>
+  </data>
+  <data name="remainingTimeToEnd" xml:space="preserve">
+    <value>Bitimine Kalan Süre:</value>
+  </data>
+  <data name="seconds" xml:space="preserve">
+    <value>Saniye</value>
+  </data>
+  <data name="spendFee" xml:space="preserve">
+    <value>Yaklaşık Komisyon:</value>
+  </data>
+  <data name="start" xml:space="preserve">
+    <value>Başlat</value>
+  </data>
+  <data name="stop" xml:space="preserve">
+    <value>Durdur</value>
+  </data>
+  <data name="left" xml:space="preserve">
+    <value>Kaldı</value>
+  </data>
+  <data name="areYouSureStopOperation" xml:space="preserve">
+    <value>Operasyonu durdurmaktan emin misiniz?</value>
+  </data>
+  <data name="donotshaermnemonic" xml:space="preserve">
+    <value>Cüzdanınızın GÜVENLİĞİ için kimseyle paylaşmayın!</value>
+  </data>
+  <data name="menuGetMyWords" xml:space="preserve">
+    <value>Cüzdan Kelime Öbeklerini Getir</value>
+  </data>
+  <data name="menuRestoreMyWallet" xml:space="preserve">
+    <value>Cüzdamını Kurtar</value>
+  </data>
+  <data name="asset" xml:space="preserve">
+    <value>Varlık</value>
+  </data>
+  <data name="blockProducer" xml:space="preserve">
+    <value>Blok Üretici</value>
+  </data>
+  <data name="customData" xml:space="preserve">
+    <value>Özel Veri</value>
+  </data>
+  <data name="dateTime" xml:space="preserve">
+    <value>Tarih/Saat</value>
+  </data>
+  <data name="fee" xml:space="preserve">
+    <value>Komisyon</value>
+  </data>
+  <data name="from" xml:space="preserve">
+    <value>Kimden</value>
+  </data>
+  <data name="key" xml:space="preserve">
+    <value>Alan</value>
+  </data>
+  <data name="method" xml:space="preserve">
+    <value>Metod</value>
+  </data>
+  <data name="pubKey" xml:space="preserve">
+    <value>Genel Anahtar</value>
+  </data>
+  <data name="signature" xml:space="preserve">
+    <value>İmza</value>
+  </data>
+  <data name="to" xml:space="preserve">
+    <value>Kime</value>
+  </data>
+  <data name="transaction" xml:space="preserve">
+    <value>Hareket</value>
+  </data>
+  <data name="validators" xml:space="preserve">
+    <value>Onaylayıcılar</value>
+  </data>
+  <data name="value" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+</root>

@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="createNewAddress" xml:space="preserve">
+    <value>Create New Address</value>
+  </data>
+  <data name="frmEntrance_LblTitle" xml:space="preserve">
+    <value>Pirichain Wallet And Data Bridge</value>
+  </data>
+  <data name="frmEntrance_lblYourPassword" xml:space="preserve">
+    <value>Your Password</value>
+  </data>
+  <data name="login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="RescueMyWallet" xml:space="preserve">
+    <value>Rescue My Wallet</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="welcome" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="createNewPassword" xml:space="preserve">
+    <value>Create New Password</value>
+  </data>
+  <data name="enterNewPassword" xml:space="preserve">
+    <value>Define Password Below</value>
+  </data>
+  <data name="enterNewPasswordAgain" xml:space="preserve">
+    <value>Define Password Again Below </value>
+  </data>
+  <data name="error" xml:space="preserve">
+    <value>Error!</value>
+  </data>
+  <data name="errorMustbeLeast5Ch" xml:space="preserve">
+    <value>Password Must Be 5 Characters At Least!</value>
+  </data>
+  <data name="errorPasswordNotMatched" xml:space="preserve">
+    <value>Passwords are not matched!</value>
+  </data>
+  <data name="errWrongPass" xml:space="preserve">
+    <value>Wrong Password!</value>
+  </data>
+  <data name="lang" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="yourBalance" xml:space="preserve">
+    <value>Your Balance:</value>
+  </data>
+  <data name="yourPiriBalance" xml:space="preserve">
+    <value>Your Piri Coin Balance:</value>
+  </data>
+  <data name="confirmationCount" xml:space="preserve">
+    <value>Confirmation Count</value>
+  </data>
+  <data name="confirmed" xml:space="preserve">
+    <value>Confirmed</value>
+  </data>
+  <data name="menuAbout" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="menuAddressBook" xml:space="preserve">
+    <value>Address Book</value>
+  </data>
+  <data name="menuAddWallet" xml:space="preserve">
+    <value>Add Wallet</value>
+  </data>
+  <data name="menuDatabase" xml:space="preserve">
+    <value>Database</value>
+  </data>
+  <data name="menuDeleteWallet" xml:space="preserve">
+    <value>Delete Wallet</value>
+  </data>
+  <data name="menuSelectWallet" xml:space="preserve">
+    <value>Select Wallet</value>
+  </data>
+  <data name="menuSendCoin" xml:space="preserve">
+    <value>Send Piri Or Token</value>
+  </data>
+  <data name="menuWallet" xml:space="preserve">
+    <value>Wallets</value>
+  </data>
+  <data name="msgWalletAddedSucc" xml:space="preserve">
+    <value>New Wallet Added Successfully! You can select new wallet top menu !</value>
+  </data>
+  <data name="addNew" xml:space="preserve">
+    <value>Add New</value>
+  </data>
+  <data name="address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="addressBook" xml:space="preserve">
+    <value>Address Book</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="AssetName" xml:space="preserve">
+    <value>Asset</value>
+  </data>
+  <data name="confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="confirmDelete" xml:space="preserve">
+    <value>{0} addressbook is going to delete Are you sure?</value>
+  </data>
+  <data name="delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="errFillAllFields" xml:space="preserve">
+    <value>Fill All Fields!</value>
+  </data>
+  <data name="errInsufficientBalance" xml:space="preserve">
+    <value>Insuffcient Balance</value>
+  </data>
+  <data name="label" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="messageAddressAdded" xml:space="preserve">
+    <value>Address Added Successfully!</value>
+  </data>
+  <data name="messageAddressUpdated" xml:space="preserve">
+    <value>Address Updated Successfully!</value>
+  </data>
+  <data name="messageTransferSucc" xml:space="preserve">
+    <value>Transfer has been done successfully!</value>
+  </data>
+  <data name="receipt" xml:space="preserve">
+    <value>Receipt Address</value>
+  </data>
+  <data name="result" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="transferInterface" xml:space="preserve">
+    <value>Transfer Page</value>
+  </data>
+  <data name="globalBlocks" xml:space="preserve">
+    <value>Blocks</value>
+  </data>
+  <data name="globalTransactions" xml:space="preserve">
+    <value>Global Transactions</value>
+  </data>
+  <data name="myTransactions" xml:space="preserve">
+    <value>My Transactions</value>
+  </data>
+  <data name="blockHeight" xml:space="preserve">
+    <value>Block Height</value>
+  </data>
+  <data name="confirmationNodes" xml:space="preserve">
+    <value>Confirmation Nodes</value>
+  </data>
+  <data name="createNewTableWhenCustomQueryAcrive" xml:space="preserve">
+    <value>Create New Table
+ When Written Complex
+ Custom SQL Query </value>
+  </data>
+  <data name="dataAnnoucement" xml:space="preserve">
+    <value>System shows only first 100 records in your selected table or view. All records will have been sent during adding to the Pirichain.</value>
+  </data>
+  <data name="notSendIfTxExists" xml:space="preserve">
+    <value>Don't Send if Tx Field Exists</value>
+  </data>
+  <data name="sendAllFields" xml:space="preserve">
+    <value>Send All Fields</value>
+  </data>
+  <data name="sendOnlyBelowFields" xml:space="preserve">
+    <value>Send Only Below Selected Fields</value>
+  </data>
+  <data name="globalTransactionList" xml:space="preserve">
+    <value>Global Transaction List</value>
+  </data>
+  <data name="loading" xml:space="preserve">
+    <value>Loading... Please Wait...</value>
+  </data>
+  <data name="receive" xml:space="preserve">
+    <value>Receive</value>
+  </data>
+  <data name="transactionList" xml:space="preserve">
+    <value>My Transaction List</value>
+  </data>
+  <data name="areyousure_senddata" xml:space="preserve">
+    <value>Your data will send Piri Blockchain and your Piri balance will spend. Are you sure continue operation?</value>
+  </data>
+  <data name="operationEnd" xml:space="preserve">
+    <value>Sending Data Operation ended!</value>
+  </data>
+  <data name="bothKeyValue" xml:space="preserve">
+    <value>Both Key And Value</value>
+  </data>
+  <data name="days" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="encrytionLevel" xml:space="preserve">
+    <value>Encryption Level</value>
+  </data>
+  <data name="fastSpeed" xml:space="preserve">
+    <value>Fast Speed
+(Fee 2x)
+7s /1 Op</value>
+  </data>
+  <data name="hours" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="lightingSpeed" xml:space="preserve">
+    <value>Lightning
+(Fee 5x)
+3s /1 Op</value>
+  </data>
+  <data name="minutes" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+  <data name="noEncryption" xml:space="preserve">
+    <value>No Encryption</value>
+  </data>
+  <data name="normalSpeed" xml:space="preserve">
+    <value>Normal Speed
+(Fee 1x )  
+10s /1 Op</value>
+  </data>
+  <data name="onlyKey" xml:space="preserve">
+    <value>Only Key</value>
+  </data>
+  <data name="operationSpeed" xml:space="preserve">
+    <value>Operation Speed</value>
+  </data>
+  <data name="pause" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="remainingTimeToEnd" xml:space="preserve">
+    <value>Reamining Time To End:</value>
+  </data>
+  <data name="seconds" xml:space="preserve">
+    <value>Seconds</value>
+  </data>
+  <data name="spendFee" xml:space="preserve">
+    <value>Approx Spend Fee:</value>
+  </data>
+  <data name="start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="left" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="areYouSureStopOperation" xml:space="preserve">
+    <value>Are you sure stop operation?</value>
+  </data>
+  <data name="donotshaermnemonic" xml:space="preserve">
+    <value>Do not Share with anyone For your Wallet SAFETY!</value>
+  </data>
+  <data name="menuGetMyWords" xml:space="preserve">
+    <value>Get My Wallet Keywords</value>
+  </data>
+  <data name="menuRestoreMyWallet" xml:space="preserve">
+    <value>Restore My Wallet</value>
+  </data>
+  <data name="asset" xml:space="preserve">
+    <value>Asset</value>
+  </data>
+  <data name="blockProducer" xml:space="preserve">
+    <value>Block Producer</value>
+  </data>
+  <data name="customData" xml:space="preserve">
+    <value>Custom Data</value>
+  </data>
+  <data name="dateTime" xml:space="preserve">
+    <value>Date Time</value>
+  </data>
+  <data name="fee" xml:space="preserve">
+    <value>Fee</value>
+  </data>
+  <data name="from" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="key" xml:space="preserve">
+    <value>Key</value>
+  </data>
+  <data name="method" xml:space="preserve">
+    <value>Method</value>
+  </data>
+  <data name="pubKey" xml:space="preserve">
+    <value>Public Key</value>
+  </data>
+  <data name="signature" xml:space="preserve">
+    <value>Signature</value>
+  </data>
+  <data name="to" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="transaction" xml:space="preserve">
+    <value>Transaction</value>
+  </data>
+  <data name="validators" xml:space="preserve">
+    <value>Validators</value>
+  </data>
+  <data name="value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+</root>
